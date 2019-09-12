@@ -1,0 +1,90 @@
+﻿<app-header></app-header>
+<div class="employee-data" novalidate>
+    <div>
+        <h1>{{mainHeader}}</h1>
+    </div>
+    <div class="frame frame-body">
+        <div id="main-wrapper-ts">
+            <form class="form-ts" name="employeeForm" id="employeeForm">
+                <div class="section section-main-title">
+                    <h2>{{deptHeader}}</h2>
+                </div>
+                <div class="section section-ts">
+                    <div class="section-row-ts clearfix">
+                        <div class="section-block">
+                            <label class="label-dept-ts" for="department">Department Name <span class="superscript">*</span></label>
+                            <select class="input-ts input-ts-arrow" (change)="selected($event)">
+                                <option *ngFor="let dept of departments" value="{{dept.DeptId}}">
+                                    {{dept.DeptName}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="section section-main-title">
+                    <h2>{{empHeader}}</h2>
+                </div>
+                <div class="section section-ts">
+                    <div class="section-row-ts clearfix">
+                        <div class="section-block">
+                            <label class="label-ts" for="fname">First Name <span class="superscript">*</span></label>
+                            <input type="text" id="fname" name="fname" [(ngModel)]="employee.FirstName" required>
+                        </div>
+                    </div>
+                    <div class="section-row-ts clearfix">
+                        <div class="section-block">
+                            <label class="label-ts" for="lname">Last Name <span class="superscript">*</span></label>
+                            <input class="input-ts" type="text" name="lname" id="lname" [(ngModel)]="employee.LastName" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="section section-ts">
+                    <div class="section-row-ts clearfix">
+                        <label class="label-ts" for="designation">Designation <span class="superscript">*</span></label>
+                        <input class="input-ts" type="text" name="designation" id="designation" [(ngModel)]="employee.Designation" required />
+                    </div>
+                    <div class="section-row-ts clearfix">
+                        <label class="label-ts" for="mangName">Manager's Name <span class="superscript">*</span></label>
+                        <input class="input-ts" type="text" name="mangName" id="mangName" [(ngModel)]="employee.ManagerName" required />
+                    </div>
+                </div>
+                <div class="section section-ts">
+                    <div class="section-row-ts clearfix">
+                        <label class="label-ts" for="empType">Employee Type <span class="superscript">*</span></label>
+                        <input class="input-ts" type="text" name="empType" id="empType" [(ngModel)]="employee.EmployeeType" required />
+                    </div>
+                    <div class="section-row-ts clearfix">
+                        <label class="label-ts" for="notes">Notes</label>
+                        <input class="input-ts" type="text" name="notes" id="notes" />
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="section section-ts">
+                    <div class="section-row-ts clearfix">
+                        <span>Upload Photo <span class="superscript">*</span></span>
+                        <input #imageInput
+                               type="file"
+                               accept="image/*"
+                               (change)="processFile($event)">
+                        <!--<div class="upload-btn-wrapper">
+                            <button class="upload-button">Upload a file</button>
+                            <input type="file" name="myfile" accept="image/*" (change)="processFile($event)"/>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="footer-ts">
+                    <div class="pull-right footer-buttons-ts">
+                        <button class="cancel-button" [routerLink]="['/employee']">
+                            <span style="color:black;font-size:larger">Cancel</span>
+                        </button>
+
+                        <span (click)="addEmployee(employee);" class="button btn-submit-big">Save Employee </span>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,177 @@
+﻿.employee-data {
+    position: relative;
+    height: 996px;
+    background: #F5F7FA;
+}
+
+h1 {
+    position: absolute;
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 32px;
+    left: 80px;
+    top: 10px;
+}
+
+.cancel-button {
+    position: absolute;
+    width: 89px;
+    height: 32px;
+    right: 700px;
+    top: 30px;
+    background: #F5F7FA;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.frame-body {
+    border: none;
+}
+
+#main-wrapper-ts {
+    top: 100px;
+    left: 70px;
+    right: 0px;
+    bottom: 55px;
+    position: absolute;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    overflow: auto;
+}
+
+.form-ts {
+    margin-bottom: 0;
+    max-width: 930px;
+}
+
+.section-main-title {
+    margin: 0px;
+    background: #FFF;
+    padding: 10px 0px 0px 5px;
+}
+
+    .section-main-title h2 {
+        padding-left: 10px;
+        font-size: 26px;
+        margin: 0;
+        font-family: calibri;
+        font-size: 16px;
+        line-height: 21px;
+        color: #345580;
+        letter-spacing: 0.005em;
+    }
+
+.section-ts {
+    margin: 0px;
+    background: #FFF;
+    padding: 10px 0 35px 5px;
+    border-radius: 3px;
+}
+
+    .section-ts .section-row-ts {
+        width: 29%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .section-ts .full-row {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+.line {
+    margin: 0 30px 0 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.section-block {
+    display: grid;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+}
+
+.label-ts {
+    font-family: Calibri;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.superscript {
+    color: red;
+    vertical-align: text-bottom;
+    font-size: 100%;
+}
+
+.footer-ts {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    border: none;
+}
+
+.footer-buttons-ts {
+    padding: 25px 30px 25px 0;
+}
+
+.btn-submit-big {
+    height: 40px;
+    text-align: center;
+    min-width: 97px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 0px 25px;
+    display: inline-block;
+    font-size: 13px;
+    background-color: #00a3e0;
+    color: darkslategrey;
+    font-weight: 600;
+    line-height: 37px;
+    border-radius: 3px;
+    border: 1px solid #d0d0ce;
+    cursor: pointer;
+    right: 500px;
+    position: absolute;
+}
+
+.label-dept-ts {
+    font-family: Calibri;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.004em;
+    color: #345580;
+}
+
+.upload-button {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

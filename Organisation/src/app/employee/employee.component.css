@@ -1,0 +1,74 @@
+﻿.employee-list {
+    position: relative;
+    height: 996px;
+    background: #F5F7FA;
+}
+
+.app-bar {
+    background: #345580;
+    height: 55px;
+    top: -0.33px;
+}
+
+[_header] {
+    position: absolute;
+    width: 446.29px;
+    height: 38px;
+    left: calc(50% - 446.29px/2 - 421.86px);
+    top: 100px;
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    /* UI Primary Colors/Dark Blue */
+    background: #345580;
+}
+
+[_body] {
+    position: absolute;
+    width: 1294px;
+    left: 73px;
+    top: 193px;
+}
+
+[_top-bar] {
+    background: #ECF1F7;
+    border-radius: 3px 3px 0px 0px;
+    height: 38px;
+}
+
+td {
+    font-family: Calibri;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 10px;
+}
+
+h1 {
+    position: absolute;
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 32px;
+    left: 80px;
+    top: 80px;
+}
+
+.add-button {
+    position: absolute;
+    width: 89px;
+    height: 32px;
+    left: 1173px;
+    top: 103px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), #345580;
+}
+
+.action-button {
+    background: none;
+    border: none;
+}
+
+img {
+    width: 18px;
+}

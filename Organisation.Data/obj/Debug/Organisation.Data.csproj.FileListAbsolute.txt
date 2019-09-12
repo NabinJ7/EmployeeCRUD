@@ -1,0 +1,10 @@
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\Organisation.Data.dll.config
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\Organisation.Data.dll
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\Organisation.Data.pdb
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\EntityFramework.dll
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\EntityFramework.xml
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\obj\Debug\Organisation.Data.csprojResolveAssemblyReference.cache
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\obj\Debug\Organisation.Data.dll
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Data\obj\Debug\Organisation.Data.pdb

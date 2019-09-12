@@ -1,0 +1,4 @@
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Domain\bin\Debug\Organisation.Domain.dll
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Domain\bin\Debug\Organisation.Domain.pdb
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Domain\obj\Debug\Organisation.Domain.dll
+C:\Users\nabjha\Desktop\Employee_CRUD\Organisation\Organisation.Domain\obj\Debug\Organisation.Domain.pdb

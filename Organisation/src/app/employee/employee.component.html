@@ -1,0 +1,39 @@
+﻿<app-header></app-header>
+<div class="employee-list">
+    <div>
+        <h1>{{message}}</h1>
+        <button class="add-button" [routerLink]="['/addEmployee']"><span style="color:white;">Add</span></button>
+    </div>
+    <div>
+        <table _body>
+            <thead>
+                <tr _top-bar>
+                    <td>NAME</td>
+                    <td>DESIGNATION</td>
+                    <td>TYPE</td>
+                    <td>REPORTING MANAGER</td>
+                    <td>ACTIONS</td>
+                </tr>
+            </thead>
+            <tbody style="background:white;">
+                <tr *ngFor="let emp of employees;let i=idx">
+                    <ng-template [ngTemplateOutlet]="loadTemplate(emp)" [ngOutletContext]="{ $implicit: emp, idx: i }"></ng-template>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>{{statusMessage}}</div>
+
+    <!--The Html Template for Read-Only Rows-->
+    <ng-template #readOnlyTemplate let-emp>
+        <td>{{emp.FirstName}} {{emp.LastName}}</td>
+        <td>{{emp.Designation}}</td>
+        <td>{{emp.EmpType}}</td>
+        <td>{{emp.ManagerName}}</td>
+        <td>
+            <button class="action-button" title="Delete Employee" (click)="deleteEmployee(emp);">
+                <img src="../../../Images/delete-icon.png" /></button>
+        </td>
+    </ng-template>
+    <!--Ends Here-->
+</div>
